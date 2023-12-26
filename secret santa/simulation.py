@@ -76,7 +76,6 @@ def main():
     plt.xlabel('Number of Symmetric Pairs')
     plt.ylabel('Number of trials reported')
     plt.title('Secret Santa Simulations')
-    plt.savefig('result.png', dpi=500)
     plt.show()
 
     p = res.count(1) / len(res)
