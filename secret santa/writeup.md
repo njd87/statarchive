@@ -56,10 +56,10 @@ So,
 $$P(X = 1) \approx e^{-0.718} \approx \boxed{0.48}$$
 
 ### Simulation
-We can further check our answer via simulation. First, we need to sample, let's say $10000$, possible arrangements. Please see the [simulation code](https://github.com/username/repo/blob/main/simulation.py) for the full doc!
+We can further check our answer via simulation. First, we need to sample, let's say $10000$, possible arrangements. Please see the [simulation code](https://github.com/njd87/statarchive/blob/main/secret%20santa/simulation.py) for the full doc!
 
 Here is the approximate distribution from 10000 samples:
 
+![Secret Santa Simulations](https://i.imgur.com/XAfxFrY.png)
 
-
-And we get than the approximate probability is $0.3426$. Not that close, but it is an approximation.
+And we get than the approximate probability is $0.3426$. Not that close, but it was an approximation.
